@@ -30,3 +30,12 @@ Sample payload:
 
 ## Swagger UI
 ```http://localhost:8080/swagger-ui.html```
+
+## Docker Run:
+**There are two ways to do this where you can do it from root director or in the folder directory**
+
+**If you are in the root director the command:**
+```docker build -t "anyName" directoryPath```
+
+**If you are in the folder director the command:**
+```docker build -t "anyName" .```
